@@ -73,7 +73,7 @@ while 1:
                 continue
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + "Mail Adresi\n*Bilmiyorsanız 'Enter' Tuşuna Basınız.\n"+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "- Mail Adresi\n*Bilmiyorsanız 'Enter' Tuşuna Basınız.\n"+ Fore.LIGHTGREEN_EX, end="")
             mail = input()
             if ("@" not in mail or ".com" not in mail) and mail != "":
                 raise
@@ -84,7 +84,7 @@ while 1:
             continue
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + f"Gönderilecek SMS Sayısını Yazınız.\n{sonsuz}: "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + f"Gönderilecek SMS Sayısını Yazınız.\n{sonsuz}"+ Fore.LIGHTGREEN_EX, end="")
             kere = input()
             if kere:
                 kere = int(kere)
@@ -147,7 +147,7 @@ while 1:
             continue
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + "Mail Adresi\n*Bilmiyorsanız 'Enter' Tuşuna Basınız.\n"+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "- Mail Adresi\n*Bilmiyorsanız 'Enter' Tuşuna Basınız.\n"+ Fore.LIGHTGREEN_EX, end="")
             mail = input()
             if ("@" not in mail or ".com" not in mail) and mail != "":
                 raise

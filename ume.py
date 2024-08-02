@@ -27,7 +27,7 @@ while 1:
   `%888"  4888!`     `~    "    `"`     `Y"   'YP       'Y"
     `"      ""
     
-    Sms- {}{}{}・Umut Kahraman\n  
+    "Bir Umuttur Yaşamak..." - Code +{}{}{}・Umut Kahraman\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1・Normal SMS\n\n 2・Turbo SMS\n\n 3・Exit\n\n" + Fore.LIGHTYELLOW_EX + ""))
